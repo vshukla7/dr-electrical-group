@@ -215,7 +215,20 @@ export default function Home() {
 
               <div className="directors">
                 <div className="director-card">
-                  <div className="director-avatar">RY</div>
+                  <Image
+                    src="/Dir.jpeg"
+                    alt="Radheshyam Yadav - Director"
+                    width={56}
+                    height={56}
+                    style={{
+                      width: "56px",
+                      height: "56px",
+                      borderRadius: "50%",
+                      border: "2px solid #000000",
+                      objectFit: "cover",
+                      flexShrink: 0,
+                    }}
+                  />
                   <div className="director-info">
                     <h5>Radheshyam Yadav</h5>
                     <span>Director &amp; Founder</span>
@@ -906,7 +919,20 @@ export default function Home() {
             </div>
           </div>
           <div className="legal-item">
-            <div className="legal-icon">👤</div>
+            <Image
+              src="/Dir.jpeg"
+              alt="Radheshyam Yadav"
+              width={48}
+              height={48}
+              style={{
+                width: "48px",
+                height: "48px",
+                borderRadius: "50%",
+                border: "2px solid #000000",
+                objectFit: "cover",
+                flexShrink: 0,
+              }}
+            />
             <div className="legal-text">
               <strong>Director</strong>
               <span>Radheshyam Yadav</span>
